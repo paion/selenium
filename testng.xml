@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="classes" thread-count="1">
+    <test name="Test-method test" >
+        <!--<parameter name="driver" value="Chrome" />-->
+
+      <!--  <packages>
+    <package name="ho lidaydeal.amzn" />
+        </packages>-->
+        <classes>
+            <class name="multipleTestng2.ParallelClassesTest1"/>
+            <class name= "multipleTestng3.ParallelClassesTest2"/>
+        </classes>
+    </test>
+  <!--  <test name="HolidayDeal for Firefox" >
+        <parameter name="driver" value="Firefox" />
+
+                <packages>
+                    <package name="holidaydeal.amzn" />
+                </packages>
+        <classes>
+            <class name="holidaydeal.amzn.HolidayDealTest"/>
+        </classes>
+    </test>
+
+    <test name="Smoke1">
+
+    </test>-->
+</suite>

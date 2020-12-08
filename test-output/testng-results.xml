@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-11T18:01:50 EST" name="Suite1" finished-at="2020-11-11T18:01:50 EST" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2020-11-11T18:01:50 EST" name="Test-method test" finished-at="2020-11-11T18:01:50 EST" duration-ms="36">
+      <class name="multipleTestng3.ParallelClassesTest2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:multipleTestng3.ParallelClassesTest2@4cf4d528]" started-at="2020-11-11T18:01:50 EST" name="beforeClass" finished-at="2020-11-11T18:01:50 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testMethodOne()[pri:0, instance:multipleTestng3.ParallelClassesTest2@4cf4d528]" started-at="2020-11-11T18:01:50 EST" name="testMethodOne" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:multipleTestng3.ParallelClassesTest2@4cf4d528]" started-at="2020-11-11T18:01:50 EST" name="testMethodTwo" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:multipleTestng3.ParallelClassesTest2@4cf4d528]" started-at="2020-11-11T18:01:50 EST" name="afterClass" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- multipleTestng3.ParallelClassesTest2 -->
+      <class name="multipleTestng2.ParallelClassesTest1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:multipleTestng2.ParallelClassesTest1@545997b1]" started-at="2020-11-11T18:01:50 EST" name="beforeClass" finished-at="2020-11-11T18:01:50 EST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testMethodOne()[pri:0, instance:multipleTestng2.ParallelClassesTest1@545997b1]" started-at="2020-11-11T18:01:50 EST" name="testMethodOne" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:multipleTestng2.ParallelClassesTest1@545997b1]" started-at="2020-11-11T18:01:50 EST" name="testMethodTwo" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:multipleTestng2.ParallelClassesTest1@545997b1]" started-at="2020-11-11T18:01:50 EST" name="afterClass" finished-at="2020-11-11T18:01:50 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- multipleTestng2.ParallelClassesTest1 -->
+    </test> <!-- Test-method test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
